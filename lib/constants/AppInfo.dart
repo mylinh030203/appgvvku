@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 class AppInfo {
-  static const baseUrl = 'http://192.168.104.52:3333/api';
+  static const baseUrl = 'https://nhaphoc.vku.udn.vn:8443/apiCTDT/api';
   // static const baseUrl = 'http://192.168.10.6:3333/api';
   // static const baseUrl = 'http://192.168.51.143:3333/api';
 
