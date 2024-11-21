@@ -58,7 +58,7 @@ class NoidungBuoiHoc extends BuoiHoc {
     return {
       'longtitude': qrSplit.isNotEmpty ? qrSplit[0] : '',
       'latitude': qrSplit.length > 1 ? qrSplit[1] : '',
-      'timeEnd': (qrSplit.length > 3 && qrSplit[3].isNotEmpty) ? DateTime.tryParse(qrSplit[3]) : null,
+      'timeEnd': (qrSplit.length > 3 && qrSplit[3].isNotEmpty) ? DateTime.parse(qrSplit[3]).add(const Duration(hours: 7)) : null,
     };
   }
 
